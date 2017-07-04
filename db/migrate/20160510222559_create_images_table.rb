@@ -1,4 +1,4 @@
-class CreateImagesTable < ActiveRecord::Migration[4.2]
+class CreateImagesTable < ActiveRecord::Migration
   def up
     create_table :images do |t|
       t.string :title
